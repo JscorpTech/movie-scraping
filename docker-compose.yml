@@ -1,0 +1,9 @@
+version: '3.11'
+
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/code
+    command: sh
